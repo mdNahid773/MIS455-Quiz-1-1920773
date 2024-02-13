@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(58, 139, 233);
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    padding: 30px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px black;
+    /* display: inline-block; */
+    
+}
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+hr {
+    margin-bottom: 20px;
+    color: rgb(155, 155, 155);
+}
+input {
+    display: block;
+    border: none;
+    border-bottom: 2px solid rgb(155, 155, 155);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+::placeholder {
+    color: rgb(155, 155, 155);
+  }
+
+#fPass {
+    color: rgb(155, 155, 155);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: rgb(58, 139, 233);
+    border: none;
+    color: white;
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(58, 139, 233);
+    margin-left: 5px;
+}
+
+.text p {
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    /* width: 100px; */
+    text-align: start;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.text {
+    display: flex;
+}
+
+.text hr {
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 380px;
+}
